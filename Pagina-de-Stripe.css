@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  background-color: #dfdfdf;
+  background-image: gray;
+}
+
+img {
+  max-width: 250px;
+  max-height: 150px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.tienda {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.tienda > * {
+  flex: 1 1;
+}
+
+.lampara {
+  background: transparent;
+  text-align: center;
+  cursor: pointer;
+  min-width: 310px;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+
+.lampara:hover {
+  transform: scale(1.1);
+}
+
+.lampara figcaption {
+  padding: 1em;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}
